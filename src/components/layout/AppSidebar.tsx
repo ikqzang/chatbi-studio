@@ -12,12 +12,14 @@ import {
   ChevronLeft,
   ChevronRight,
   Sparkles,
+  CalendarClock,
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const navItems = [
   { title: "Chat", href: "/", icon: MessageSquare },
   { title: "Dashboard", href: "/dashboard", icon: LayoutDashboard },
+  { title: "Schedule Reports", href: "/schedule-reports", icon: CalendarClock },
   { title: "Data Sources", href: "/data-sources", icon: Database },
   { title: "Data Tests", href: "/data-tests", icon: TestTube },
   { title: "RBAC & Audit Logs", href: "/rbac", icon: Shield },
